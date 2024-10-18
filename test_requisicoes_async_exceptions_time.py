@@ -1,8 +1,7 @@
 '''
 TESTE 5
-O objetivo desse programa é simular a chamada da API da engenharia para API centralizadora.
-Agora vou realmente fazer uma requisição a alguma api qualquer na internet
-Quero retornar tbm quantos segundos cada chamada demorou.
+O objetivo desse programa é mostrar como chamar uma api de forma paralela usando asyncio
+Irei mandar 3 requisições em paralelo e vou salvar quantos segundos cada chamada demorou.
 '''
 import asyncio
 import time
